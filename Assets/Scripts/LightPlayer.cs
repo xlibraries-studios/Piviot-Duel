@@ -38,7 +38,7 @@ public class LightPlayer : MonoBehaviour
         renderer.enabled = false;
         particle.Play();
         yield return new WaitForSeconds(0.8f);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
         DarkPlayer.score -= 2;
     }
 }
